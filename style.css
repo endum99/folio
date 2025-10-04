@@ -5,11 +5,9 @@
 
 body {
     font-size: 18px;
-    padding: 40px;
+    padding: 30px;
     font-family: "Quicksand", sans-serif;
     background-color: #ddd;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -30,7 +28,7 @@ body {
     border-radius: 50%;
     border: 4px solid white;
     margin-bottom: 20px;
-    width: 200px;
+    width: 150px;
 }
 
 .profil-2 a {
@@ -52,8 +50,6 @@ body {
 }
 
 .profil-2 h2 {
-    font-family: "Satisfy", cursive;
-    font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 20px;
     color: red;
@@ -182,17 +178,6 @@ body {
 
 .rapot {
     margin-bottom: 30px;
-}
-
-
-/* HP Resolution */
-@media (max-width: 576px) {
-    body {
-        padding: 30px;
-    }
-    .profil-2 a {
-        margin-bottom: 35px;
-    }
 }
 
 
