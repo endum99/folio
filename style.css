@@ -139,6 +139,45 @@
     background: red;
   }
 
+
+/* kelas-9 */
+  #kelas-9 {
+    padding: 30px;
+    background-color: green;
+    text-align: center;
+  }
+
+  #kelas-9 h2 {
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .rapot img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .rapot a {
+    background: white;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  .rapot a:hover {
+    background: yellow;
+    color: black;
+  }
+
+  .rapot p {
+    margin-top: 15px;
+    color: white;
+  }
+
+/* footer */
   footer {
     text-align: center;
     padding: 1em;
