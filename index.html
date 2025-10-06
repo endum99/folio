@@ -24,7 +24,7 @@
   </header>
 
   <!-- Cards -->
-  <section class="cards">
+  <section class="cards" id="cards">
     <div class="card">
       <h3>Kelas 9</h3>
       <img src="img/siswa.png" alt="siswa">
@@ -43,6 +43,12 @@
       <p>Web design, tutorial</p>
       <a href="#creation">Lihat Halaman</a>
     </div>
+    <div class="card">
+      <h3>Musik</h3>
+      <img src="img/audio.jpg" alt="audio">
+      <p>Berisi lagu koleksi favorit pembuat website</p>
+      <a href="#audio">Lihat Halaman</a>
+    </div>
   </section>
 
   <!-- Galeri -->
@@ -59,22 +65,15 @@
   </section>
 
   <!-- Video -->
-  <section class="video">
-    <h2>Photopea Tutorial</h2>
-    <video width="320" height="240" controls>
-      <source src="file.mp4" type="video/mp4">
-    </video>
-  </section>
-
-  <!-- Formulir Pesan -->
-  <section class="contact">
-    <h2>Daftar Anggota</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Nama Lengkap" required />
-      <input type="email" placeholder="Gmail" required />
-      <button type="submit">Daftar</button>
-      <a href="#">Lihat Daftar Anggota</a>
-    </form>
+  <section class="video" id="audio">
+    <div class="card">
+      <h3>Slow Rock - Indonesia</h3>
+      <iframe src="https://drive.google.com/file/d/1Sj65VSAVMUViaAtKWfkhH0IecbGgO0Lx/preview" allow="autoplay"></iframe>
+    </div>
+    <div class="card">
+      <h3>Slow Rock - Barat</h3>
+      <iframe src="https://drive.google.com/file/d/1jFBjJa24Cij09g-JyNZHJL2EIUC4rkit/preview" allow="autoplay"></iframe>
+    </div>
   </section>
 
   <!-- kelas 9 -->
@@ -130,7 +129,16 @@
     </div>
   </section>
 
-
+  <!-- Formulir Pesan -->
+  <section class="contact">
+    <h2>Form Registrasi</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Nama Lengkap" required />
+      <input type="email" placeholder="Gmail" required />
+      <button type="submit">Daftar</button>
+      <a href="#">Lihat Daftar Anggota</a>
+    </form>
+  </section>
 
   <!-- footer -->
   <footer>
