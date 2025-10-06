@@ -10,7 +10,8 @@
     color: #333;
     line-height: 1.6;
   }
-  
+
+/* header */
   header {
     text-align: center;
     padding: 2em;
@@ -18,7 +19,6 @@
     color: white;
   }
 
-/* header */
   header a:hover {
     background-color: yellow;
     color: black;
@@ -59,7 +59,7 @@
     margin-bottom: 10px;
   }
 
-  .card a, header a, .contact a {
+  .card a, header a, .rapot a {
     background-color: green;
     padding: 5px 8px;
     color: white;
@@ -68,7 +68,7 @@
     cursor: pointer;
   }
 
-  .card a:hover, .contact a:hover, .contact a:hover {
+  .card a:hover, .rapot a:hover {
     background-color: red;
   }
   
@@ -76,7 +76,8 @@
 /* gallery */
   .gallery {
     text-align: center;
-    padding: 2em;
+    padding: 30px;
+    background: pink;
   }
   
   .images {
@@ -114,7 +115,16 @@
   }
 
   .contact a {
+    text-decoration: none;
+    background: green;
+    color: white;
     font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .contact a:hover {
+    background: red;
   }
   
   form {
@@ -167,7 +177,7 @@
 
   .rapot a {
     background: white;
-    padding: 6px 10px;
+    padding: 6px 8px;
     text-decoration: none;
     color: black;
     border-radius: 5px;
