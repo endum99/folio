@@ -1,212 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-  }
-  
-  body {
-    background: #f7f7f7;
-    color: #333;
-    line-height: 1.6;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Dumyati</title>
+    <link rel="shortcut icon" href="img/dum.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="person">
 
-/* header */
-  header {
-    text-align: center;
-    padding: 2em;
-    background: rgb(148, 24, 24);
-    color: white;
-  }
+    <!-- depan -->
+    <section class="cards" id="cards">
+        <div class="card">
+          <h3>Kurikulum</h3>
+          <img src="img/kur.png" alt="kurikulum">
+          <p>Pekerjaan data madrasah</p>
+          <a href="https://drive.google.com/drive/folders/1ZGXMRXoyepEVLu9Owi8xoosgS_K7vymM" target="_blank">buka</a>
+        </div>
+        <div class="card">
+          <h3>Guru</h3>
+          <img src="img/guru.png" alt="guru">
+          <p>Ujian dan perangkat ajar.</p>
+          <a href="https://drive.google.com/drive/folders/1YvuO0mvXfgTnDC1eL-7zpYlLf5Ws6GU_?usp=drive_link" target="_blank">buka</a>
+        </div>
+        <div class="card">
+          <h3>Pembelajaran</h3>
+          <img src="img/git.png" alt="git">
+          <p>Design website, github</p>
+          <a href="https://github.com/endum99" target="_blank">buka</a>
+        </div>
+      </section>
 
-  header a:hover {
-    background-color: yellow;
-    color: black;
-  }
-  
-  .profile-img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #fff;
-    margin-bottom: 1em;
-  }
 
-/* cards & creation */
-  .cards, #creation, .video {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2em;
-    gap: 1em;
-  }
-  
-  .card, .web {
-    background: white;
-    padding: 1.5em;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 280px;
-    text-align: center;
-  }
+      <section class="kurikulum">
 
-  .card img {
-    width: 90px;
-  }
+      </section>
 
-  .web img {
-    width: 200px;
-    margin: 15px;
-  }
 
-  .web p {
-    margin: 10px;
-  }
-
-  .card p, header p {
-    margin-bottom: 10px;
-  }
-
-  .card a, header a, .rapot a, #creation a {
-    background-color: green;
-    padding: 5px 8px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .card a:hover, .rapot a:hover, #creation a:hover {
-    background-color: red;
-  }
-  
-
-/* gallery */
-  .gallery {
-    text-align: center;
-    padding: 30px;
-    background: rgb(148, 24, 24);
-    color: white;
-  }
-  
-  .images {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1em;
-    margin-top: 1em;
-  }
-  
-  .images img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-  }
-
-/* video */
-  .video {
-    text-align: center;
-    padding: 2em;
-  }
-  
-  .video video {
-    width: 90%;
-    max-width: 600px;
-    border-radius: 10px;
-  }
-
-  iframe {
-    width: 210px;
-    height: 50px;
-    border-radius: 4px;
-  }
-
-/* kelas-9 */
-  #kelas-9 {
-    padding: 30px;
-    background: rgb(148, 24, 24);
-    text-align: center;
-  }
-
-  #kelas-9 h2 {
-    color: white;
-    margin-bottom: 15px;
-  }
-
-  .rapot img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
-
-  .rapot a {
-    background: white;
-    padding: 6px 8px;
-    text-decoration: none;
-    color: black;
-    border-radius: 5px;
-    font-weight: 500;
-  }
-  
-  .rapot a:hover {
-    background: yellow;
-    color: black;
-  }
-
-  .rapot p {
-    margin-top: 15px;
-    color: white;
-  }
-
-/* kelas 8 */
-#kelas-8 {
-  text-align: center;
-  padding: 30px;
-  background: rgb(148, 24, 24);
-  color: white;
-}
-
-/* footer */
-  footer {
-    text-align: center;
-    padding: 1em;
-    background: #222;
-    color: white;
-  }
-  
-  #musicToggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 99;
-    padding: 0.5em 1em;
-    background: #333;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-
-  /* person */
-  #person {
-    background: #ddd;
-  }
-
-  #person img {
-    width: 100px;
-  }
-  
-
-  @media (max-width: 768px) {
-    .cards {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .images {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
+</body>
+</html>
