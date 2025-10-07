@@ -122,56 +122,6 @@
     border-radius: 4px;
   }
 
-/* kontak */
-  .contact {
-    background: #efefef;
-    padding: 2em;
-    text-align: center;
-  }
-
-  .contact a {
-    text-decoration: none;
-    background: green;
-    color: white;
-    font-size: 14px;
-    padding: 8px;
-    border-radius: 5px;
-  }
-
-  .contact a:hover {
-    background: red;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-    gap: 1em;
-  }
-  
-  input, textarea {
-    padding: 0.8em;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-  }
-  
-  button {
-    padding: 0.8em;
-    background: green;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  button:hover {
-    background: red;
-  }
-
-
 /* kelas-9 */
   #kelas-9 {
     padding: 30px;
@@ -213,7 +163,7 @@
 #kelas-8 {
   text-align: center;
   padding: 30px;
-  background: rgb(83, 80, 80);
+  background: rgb(148, 24, 24);
   color: white;
 }
 
